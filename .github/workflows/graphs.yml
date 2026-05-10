@@ -21,6 +21,10 @@ on:
   repository_dispatch:
     types: [graphs]
   workflow_dispatch:
+permissions:
+  actions: write
+  contents: write
+  issues: write
 jobs:
   release:
     name: Generate graphs

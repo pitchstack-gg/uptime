@@ -2,6 +2,9 @@ owner: pitchstack-gg
 repo: uptime
 user-agent: pitchstack-gg
 skipDeleteIssues: true
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
 
 sites:
   - name: Website
