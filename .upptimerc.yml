@@ -14,11 +14,11 @@ sites:
     url: https://api.pitchstack.gg/healthz
     __dangerous__body_down_if_text_missing: '"serving":true'
     maxResponseTime: 5000
-  - name: Auth Service
+  - name: Auth
     url: https://auth.pitchstack.gg/readyz
     __dangerous__body_down_if_text_missing: ok
     maxResponseTime: 5000
-  - name: PowerSync Endpoint
+  - name: Sync
     url: https://api.pitchstack.gg/powersync/probes/readiness
     __dangerous__body_down_if_text_missing: '"ready":true'
     maxResponseTime: 5000
