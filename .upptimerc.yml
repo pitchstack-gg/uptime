@@ -1,36 +1,36 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: pitchstack-gg
+repo: uptime
+user-agent: pitchstack-gg
+skipDeleteIssues: true
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Website
+    url: https://pitchstack.gg
+    maxResponseTime: 10000
+  - name: Backend API
+    url: https://api.pitchstack.gg/healthz
+    __dangerous__body_down_if_text_missing: '"serving":true'
+    maxResponseTime: 5000
+  - name: Auth Service
+    url: https://auth.pitchstack.gg/readyz
+    __dangerous__body_down_if_text_missing: ok
+    maxResponseTime: 5000
+  - name: PowerSync Endpoint
+    url: https://api.pitchstack.gg/powersync/probes/readiness
+    __dangerous__body_down_if_text_missing: '"ready":true'
+    maxResponseTime: 5000
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Use the GitHub Pages repo URL first so the site works immediately.
+  # After DNS is in place, replace this with `cname: status.pitchstack.gg`.
+  baseUrl: /uptime
+  name: Pitchstack Status
+  introTitle: "**Pitchstack Status**"
+  introMessage: Public uptime and incident history for Pitchstack production endpoints, monitored from outside the cluster with GitHub Actions.
   navbar:
     - title: Status
       href: /
+    - title: Pitchstack
+      href: https://pitchstack.gg
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
