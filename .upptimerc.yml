@@ -24,9 +24,7 @@ sites:
     maxResponseTime: 5000
 
 status-website:
-  # Use the GitHub Pages repo URL first so the site works immediately.
-  # After DNS is in place, replace this with `cname: status.pitchstack.gg`.
-  baseUrl: /uptime
+  cname: status.pitchstack.gg
   name: Pitchstack Status
   introTitle: "**Pitchstack Status**"
   introMessage: Public uptime and incident history for Pitchstack production endpoints, monitored from outside the cluster with GitHub Actions.
