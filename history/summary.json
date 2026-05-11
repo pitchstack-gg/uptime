@@ -22,19 +22,19 @@
     "url": "https://api.pitchstack.gg/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.pitchstack.gg.ico",
     "slug": "backend-api",
-    "status": "down",
-    "uptime": "71.79%",
-    "uptimeDay": "71.79%",
-    "uptimeWeek": "71.79%",
-    "uptimeMonth": "71.79%",
-    "uptimeYear": "71.79%",
-    "time": 972,
-    "timeDay": 972,
-    "timeWeek": 972,
-    "timeMonth": 972,
-    "timeYear": 972,
+    "status": "up",
+    "uptime": "64.29%",
+    "uptimeDay": "64.29%",
+    "uptimeWeek": "64.29%",
+    "uptimeMonth": "64.29%",
+    "uptimeYear": "64.29%",
+    "time": 877,
+    "timeDay": 877,
+    "timeWeek": 877,
+    "timeMonth": 877,
+    "timeYear": 877,
     "dailyMinutesDown": {
-      "2026-05-11": 160
+      "2026-05-11": 225
     }
   },
   {
