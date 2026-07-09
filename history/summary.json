@@ -22,21 +22,22 @@
     "url": "https://api.pitchstack.gg/healthz",
     "icon": "https://icons.duckduckgo.com/ip3/api.pitchstack.gg.ico",
     "slug": "backend-api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.32%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.32%",
-    "time": 603,
-    "timeDay": 561,
-    "timeWeek": 547,
-    "timeMonth": 519,
-    "timeYear": 603,
+    "time": 629,
+    "timeDay": 1509,
+    "timeWeek": 786,
+    "timeMonth": 584,
+    "timeYear": 629,
     "dailyMinutesDown": {
       "2026-05-11": 225,
       "2026-05-13": 151,
-      "2026-05-21": 206
+      "2026-05-21": 206,
+      "2026-07-09": 0
     }
   },
   {
