@@ -1,7 +1,7 @@
 url: https://api.pitchstack.gg/powersync/probes/readiness
 status: up
 code: 200
-responseTime: 473
-lastUpdated: 2026-08-22T23:19:45.334Z
+responseTime: 361
+lastUpdated: 2026-08-23T23:19:56.586Z
 startTime: 2026-05-10T18:44:48.740Z
 generator: Upptime <https://github.com/upptime/upptime>
