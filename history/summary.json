@@ -13,7 +13,7 @@
     "time": 703,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 865,
+    "timeMonth": 860,
     "timeYear": 703,
     "dailyMinutesDown": {}
   },
@@ -23,15 +23,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.pitchstack.gg.ico",
     "slug": "backend-api",
     "status": "up",
-    "uptime": "99.50%",
+    "uptime": "99.51%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.50%",
+    "uptimeYear": "99.51%",
     "time": 607,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 508,
+    "timeMonth": 507,
     "timeYear": 607,
     "dailyMinutesDown": {
       "2026-05-11": 225,
@@ -55,7 +55,7 @@
     "time": 435,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 453,
+    "timeMonth": 450,
     "timeYear": 435,
     "dailyMinutesDown": {}
   },
@@ -73,7 +73,7 @@
     "time": 296,
     "timeDay": 0,
     "timeWeek": 0,
-    "timeMonth": 397,
+    "timeMonth": 394,
     "timeYear": 296,
     "dailyMinutesDown": {}
   }
