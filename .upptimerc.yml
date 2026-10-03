@@ -6,6 +6,10 @@ skipDescriptionUpdate: true
 skipTopicsUpdate: true
 skipHomepageUpdate: true
 
+# Public endpoints need no contextual secrets; GH_PAT is passed separately.
+# Keep generated workflows from exporting the entire repository secrets context.
+secrets: []
+
 sites:
   - name: Website
     url: https://pitchstack.gg
